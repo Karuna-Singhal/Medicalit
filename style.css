@@ -31,6 +31,7 @@ body {
   color: #022c53;
   line-height: 1.9;
   background-color: #e7f5ff;
+  overflow-x: hidden;
 }
 
 /* GENERAL ELEMENTS */
@@ -199,9 +200,10 @@ img {
   align-items: start;
   justify-items: start;
 
-  background-image: url(hero-img.jpg);
+  background-image: url(img/hero-img.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
